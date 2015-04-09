@@ -32,6 +32,22 @@
         </dependency>
 
         <dependency>
+            <groupId>org.springframework.data</groupId>
+            <artifactId>spring-data-redis</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>redis.clients</groupId>
+            <artifactId>jedis</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>redis.embedded</groupId>
+            <artifactId>embedded-redis</artifactId>
+            <version>0.5</version>
+        </dependency>
+
+        <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>jstl</artifactId>
         </dependency>
